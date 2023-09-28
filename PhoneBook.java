@@ -45,6 +45,7 @@ public class PhoneBook {
             System.out.println("Введите имя которое хотите найти!");
             String fname = re.next();
             PhoneBook.readPhonebook(fname);
+            System.out.println("До свидания!");
         }else if (op == 2) {
             System.out.println("До свидания!");
         }else{
