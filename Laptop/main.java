@@ -77,5 +77,6 @@ public class main {
         }else{
             System.out.println("До свидания");
         }
+        System.out.println("До свидания");
     }
 }
