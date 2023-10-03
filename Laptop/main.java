@@ -48,25 +48,25 @@ public class main {
                 case 2:
                     System.out.println("Введите размер ОЗУ!");
                     Integer ra = in.nextInt();
-                    param = "ram " + ra;
+                    param = " ram " + ra;
                     LaptopShop.SearchLaptop(param);
                     break;
                 case 3:
                     System.out.println("Введите размер ЖД!");
                     Integer di = in.nextInt();
-                    param = "disk " + di;
+                    param = " disk " + di;
                     LaptopShop.SearchLaptop(param);
                     break;
                 case 4:
                     System.out.println("Введите ОС для поиска!");
                     Integer os = in.nextInt();
-                    param = "os " + os;
+                    param = " os " + os;
                     LaptopShop.SearchLaptop(param);
                     break;
                 case 5:
                     System.out.println("Введите Цвет для поиска!");
                     Integer co = in.nextInt();
-                    param = "color " + co;
+                    param = " color " + co;
                     LaptopShop.SearchLaptop(param);
                     break;
             
